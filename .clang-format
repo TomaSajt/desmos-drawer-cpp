@@ -1,0 +1,26 @@
+AlignConsecutiveMacros: true
+AlignEscapedNewlines: true
+AlignTrailingComments: false
+
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+
+AlwaysBreakTemplateDeclarations: Yes
+
+ColumnLimit: 0
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  BeforeElse: true
+  BeforeCatch: true
+  SplitEmptyFunction: false
+
+
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializers: BeforeComma
+BreakInheritanceList: BeforeComma
+BreakStringLiterals: false
+
+ConstructorInitializerAllOnOneLineOrOnePerLine: true # Doesn't want to work correctly
+
+ReferenceAlignment: Left # clang version >= 13
